@@ -20,9 +20,15 @@ export function Hader(props) {
                     <li className='hover:font-bold hover:text-red-600' >Service</li>
                     </Link>
 
+                    <Link to="/pay">
+                    <li className='hover:font-bold hover:text-red-600' >Pay</li>  
+                    </Link> 
+
                     <Link to="/contact">
-                    <li className='hover:font-bold hover:text-red-600' >Contact Us</li>  
-                    </Link>                 
+                    <li className='hover:font-bold hover:text-red-600' >Contact</li>  
+                    </Link>   
+
+                                  
                 </ul>
             </div>
         </>

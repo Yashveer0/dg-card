@@ -16,8 +16,8 @@ export function Service(props) {
                 <video className='mt-2 mb-2' width={300} src={ads_video} controls ></video>
 
                 <h1 className='mt-2 text-red-500 text-xl animate-bounce font-mono'>Features</h1>
-                <ul className='mt-2 text-[12px] md:text-xl lg:text-xl mb-4'>
-                    
+                
+                    <div className=' text-left p-2'>
                     <li>Every card have one background song you can change it.</li>
                     <li>Every card shows your guest's name.</li>
                     <li>Image can be added to any card.</li>
@@ -27,9 +27,9 @@ export function Service(props) {
                     <li>Every card is a digital card, so you can use it for an unlimited time.</li>
                     <li>Every card is vailed minimum of two months.</li>
                     <li>In just one day, we will personalize your wedding invitation card.</li>
+                    </div>
 
-
-                </ul>
+                
                 <h1 className='mt-2 text-xl text-red-500  animate-bounce font-mono'>See this</h1>
                  
                 <div className='mt-2 mb-2'>

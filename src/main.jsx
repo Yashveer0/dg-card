@@ -11,6 +11,7 @@ import { BuddhistCards } from './components/Buddhist_Cards.jsx'
 import { BrithdayCards } from './components/Brithday_Cards.jsx'
 import { Service } from './components/Service.jsx'
 import { ContactUs } from './components/Contact_Us.jsx'
+import { Pay } from './components/Pay.jsx'
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,9 @@ const router = createBrowserRouter([
     {
       path: '/contact',
       element: <ContactUs />
+    },{
+      path: '/pay',
+      element: <Pay/>
     }
 
   

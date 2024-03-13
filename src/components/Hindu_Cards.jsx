@@ -11,7 +11,7 @@ export function HinduCards(props) {
 
             <Card 
             img_src={card8001}
-            h1="8001 Just Rs 999/-"
+            h1="8001 Rs Pay from your heart"
             seeCard="https://wedding-card-demo-no-8001.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%208001."
             />
@@ -20,7 +20,7 @@ export function HinduCards(props) {
             <hr />
             <Card 
             img_src={card8002}
-            h1="8002 Just Rs 999/-"
+            h1="8002 Rs Pay from your heart"
             seeCard="https://wedding-card-demo-no-8002.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%208002."
             />
@@ -29,7 +29,7 @@ export function HinduCards(props) {
             {/* card 3 */}
             <Card 
             img_src={card8003}
-            h1="8003 Just Rs 999/-"
+            h1="8003 Rs Pay from your heart"
             seeCard="https://wedding-card-demo-no-8003.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%208003."
             />
