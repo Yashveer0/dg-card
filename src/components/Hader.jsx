@@ -8,7 +8,7 @@ export function Hader(props) {
 
     return (
         <>
-            <div>
+            <div className=' sticky top-0'>
                 <ul className='flex justify-evenly bg-blue-300 py-2 sm:font-thin sm:text-xs md:text-xl lg:text-xl text-black '>
                     <li><img width={100} src={Logo} alt="Logo" /></li>
 
@@ -21,7 +21,7 @@ export function Hader(props) {
                     </Link>
 
                     <Link to="/pay">
-                    <li className='hover:font-bold hover:text-red-600' >Pay</li>  
+                    <li className='hover:font-bold hover:text-red-600' >Pay <span className='text-red-600'>&#9829;</span></li>  
                     </Link> 
 
                     <Link to="/contact">

@@ -16,11 +16,11 @@ export function Card({img_src, h1, seeCard, orderCard}) {
                 </div>
                 <div className='flex items-center justify-evenly py-2  '>
                     <a target='_blank' href={seeCard}>
-                    <button className='bg-blue-400 px-2 rounded-lg hover:bg-blue-700' >See Card</button>
+                    <button className='bg-blue-400 px-4 p-2 text-xl rounded-lg hover:bg-blue-700' >See Card</button>
                     </a>
 
                     <a target='_blank' href={orderCard}>
-                    <button className='bg-blue-400 px-2 rounded-lg hover:bg-blue-700' >Order Card</button>
+                    <button className='bg-green-400 px-4 text-xl p-2 rounded-lg hover:bg-blue-700' >Order Card</button>
                     </a> 
                     </div>
                  
