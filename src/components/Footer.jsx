@@ -14,7 +14,9 @@ export function Footer(props) {
         <>
             <div className='flex items-center justify-evenly bg-blue-300'>
                 
+            <Link to="/home">
                 <img width={180} src={Logo} alt="Logo" />
+                </Link>
                 <ul className='  py-2 sm:font-thin sm:text-xs md:text-xl lg:text-xl text-black text-center '>
                     
                     <Link to="/home">

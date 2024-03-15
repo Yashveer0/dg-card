@@ -10,7 +10,11 @@ export function Hader(props) {
         <>
             <div className=' sticky top-0'>
                 <ul className='flex justify-evenly bg-blue-300 py-2 sm:font-thin sm:text-xs md:text-xl lg:text-xl text-black '>
-                    <li><img width={100} src={Logo} alt="Logo" /></li>
+                    
+
+                    <Link to="/home">
+                    <li><img width={80} src={Logo} alt="Logo" /></li>
+                    </Link>
 
                     <Link to="/home">
                     <li className='hover:font-bold hover:text-red-600'>Home</li>
