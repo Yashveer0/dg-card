@@ -12,6 +12,7 @@ import { BrithdayCards } from './components/Brithday_Cards.jsx'
 import { Service } from './components/Service.jsx'
 import { ContactUs } from './components/Contact_Us.jsx'
 import { Pay } from './components/Pay.jsx'
+import { Engagement } from './components/Engagement.jsx'
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
     },{
       path: '/pay',
       element: <Pay/>
+    },
+    {
+      path: '/engagement',
+      element: <Engagement />
     }
 
   

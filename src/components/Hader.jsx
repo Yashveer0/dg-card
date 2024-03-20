@@ -8,7 +8,7 @@ export function Hader(props) {
 
     return (
         <>
-            <div className=' sticky top-0'>
+            <div className=' sticky top-0 z-20'>
                 <ul className='flex justify-evenly bg-blue-300 py-2 sm:font-thin sm:text-xs md:text-xl lg:text-xl text-black '>
                     
 
