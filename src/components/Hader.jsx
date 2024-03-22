@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { FaWhatsapp } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { CiFacebook } from "react-icons/ci";
 import Logo from '../assets/logo.png'
 
+import '../App.css'
 export function Hader(props) {
     
 
@@ -34,6 +37,21 @@ export function Hader(props) {
 
                                   
                 </ul>
+            </div>
+            
+
+            <div className='bg-green-500  flex  items-center justify-end text-xl  fixed text-white top-[7rem] z-20 w-[2rem] px-1 rounded-r-[0.5rem] transform-w duration-300 hover:w-[5rem] h-[2rem]'>
+             <a href="https://api.whatsapp.com/send?phone=7701832064&text=Hello%20there!"><  FaWhatsapp /></a>  
+            </div>
+
+            {/* insta */}
+            <div className='bg-red-500  flex  items-center justify-end text-xl  fixed text-white top-[10rem] z-20 w-[2rem] px-1 rounded-r-[0.5rem] transform-w duration-300 hover:w-[5rem] h-[2rem]'>
+             <a href="https://www.instagram.com/digital_3d_card?igsh=MWo5dHNjdjNhdnR1eA=="><  FaInstagram /></a>  
+            </div>
+
+            {/* fb */}
+            <div className='bg-blue-500  flex  items-center justify-end text-xl  fixed text-white top-[13rem] z-20 w-[2rem] px-1 rounded-r-[0.5rem] transform-w duration-300 hover:w-[5rem] h-[2rem]'>
+             <a href="https://www.facebook.com/yashmoriyavines/"><  CiFacebook /></a>  
             </div>
         </>
     )
