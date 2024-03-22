@@ -10,9 +10,9 @@ export function Card({img_src, h1, seeCard, orderCard}) {
             <div className='m4 bg-black' >
                <h1 className='text-white text-center font-bold text-xl py-2'>Crad No {h1}</h1>
                 <div className='flex items-center justify-center rounded-md ' >
-                    
+                    <a href={seeCard}>
                     <img className='w-[300px] rounded-xl max-h-[500px] m-2' src={img_src} alt="" />
-                    
+                    </a>
                 </div>
                 <div className='flex items-center justify-evenly py-2  '>
                     <a target='_blank' href={seeCard}>
