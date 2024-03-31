@@ -13,6 +13,13 @@ import { Service } from './components/Service.jsx'
 import { ContactUs } from './components/Contact_Us.jsx'
 import { Pay } from './components/Pay.jsx'
 import { Engagement } from './components/Engagement.jsx'
+import { Hero } from './components/Hero.jsx'
+import { Main2 } from './components/Main2.jsx'
+import {V_Brithday} from './components/V_Brithday.jsx'
+import { VEngagement } from './components/VEngagement.jsx'
+import { Vhindu } from './components/Vhindu.jsx'
+import { Vbuddhist } from './components/Vbuddhist.jsx'
+import { Vmuslim } from './components/Vmuslim.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,27 +28,52 @@ const router = createBrowserRouter([
   children: [
    {
      path: "/",
-     element: <Main /> ,
+     element: <Hero /> ,
+   }, 
+   {
+    path: "/main",
+    element: <Main />
+   },
+   {
+    path: "/main2",
+    element: <Main2 />
    },
    {
     path: '/hinduCard',
     element: <HinduCards />
+   },
+   {
+    path: '/v-hinduCard',
+    element: <Vhindu/>
    },
     {
       path: '/buddhist',
       element: <BuddhistCards/>
     },
     {
+      path: '/v-buddhist',
+      element: <Vbuddhist />
+    },
+    {
       path: '/muslim',
       element: <MuslimCards />
+    },
+    {
+      path: '/v-muslim',
+      element: <Vmuslim />
     },
     {
       path: '/birthday',
       element: <BrithdayCards/>
     },
     {
+      path: '/v-birthday',
+      element: <V_Brithday />
+    },
+   
+    {
       path: '/home',
-      element: <Main />
+      element: <Hero />
     },
     {
       path: '/service',
@@ -57,6 +89,10 @@ const router = createBrowserRouter([
     {
       path: '/engagement',
       element: <Engagement />
+    },
+    {
+      path: '/v-engagement',
+      element: <VEngagement />
     }
 
   
