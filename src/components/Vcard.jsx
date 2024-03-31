@@ -8,10 +8,10 @@ export function Vcard({v_src, h1, seeCard, orderCard}) {
               <div className='m4 bg-black' >
                <h1 className='text-white text-center font-bold text-xl py-2'>Crad No {h1}</h1>
                 <div className='flex items-center justify-center rounded-md ' >
-                    <a href={seeCard}>
+                    
                         <video controls  className='w-[250px] rounded-xl max-h-[400px] m-2' src={v_src} alt=""></video>
                    
-                    </a>
+                  
                 </div>
                 <div className='flex items-center justify-evenly py-2  '>
                     <a target='_blank' href={seeCard}>
