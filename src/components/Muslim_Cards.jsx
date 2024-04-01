@@ -10,14 +10,14 @@ export function MuslimCards(props) {
         <>
             <Card
             img_src={img9001}
-            h1="9001 Rs Pay from your heart"
+            h1="9001 Rs 699"
             seeCard="https://m-wedding-card-demo-no-9001.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%209001."
             
             />
             <Card
             img_src={img9002}
-            h1="9002 Rs Pay from your heart"
+            h1="9002 Rs 699"
             seeCard="https://m-weedind-card-no-9002.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%209002."
             

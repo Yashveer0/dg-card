@@ -10,7 +10,7 @@ export function BrithdayCards(props) {
         <>
             <Card 
             img_src={img_scr}
-            h1="7001 Rs Pay from your heart"
+            h1="7001 Rs 699"
             seeCard="https://b-day-demo-no-7001.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%207001."
             
@@ -18,7 +18,7 @@ export function BrithdayCards(props) {
             />
             <Card 
             img_src={img_scr2}
-            h1="7002 Rs Pay from your heart"
+            h1="7002 Rs 699"
             seeCard="https://bday-card-demo-no-7002.netlify.app/"
             orderCard="https://api.whatsapp.com/send?phone=7701832064&text=I%20want%20to%20Order%20Card%20No%207002."
             

@@ -9,7 +9,7 @@ export function Pay(props) {
         <>
 
            <div className='mt-2 flex items-center justify-center flex-col'>
-            <h1 className='text-xl font-bold animate-bounce'>Pay from your heart</h1>
+            <h1 className='text-xl font-bold animate-bounce'>Pay Using any Upi App</h1>
             <img width={100} src={dil} alt="" />
             <img width={300} src={pay} alt="" />
             <li className='p-2 mt-2 text-left'>Take screen sort, then pay by any UPI app like Paytm, Phone, Amazon- Pay, G-Pay, Cred, etc.</li>
